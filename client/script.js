@@ -66,6 +66,7 @@ const handleSubmit = async (e) => {
   e.preventDefault()
 
   const data = new FormData(form)
+  document.querySelector('body').style.backgroundImage = "url('assets/turks1.jpeg')"
 
   // user's chatstripe
   chatContainer.innerHTML += chatStripe(false, data.get('prompt'))
