@@ -19,7 +19,7 @@ app.use(express.json());
 
 app.get('/', async (req, res) => {
     res.status(200).send({
-        message: 'This is how we do it'
+        message: 'Hey beautiful. `${image.png}`'
     })
 })
 
